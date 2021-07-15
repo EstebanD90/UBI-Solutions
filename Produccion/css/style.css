@@ -30,8 +30,8 @@
 */
 @font-face {
     font-family: 'Icomoon';
-    src: url(‘http://127.0.0.1:5500/fonts/Icomoon/icomoon.eot?srf3rx′);
-    src: url(‘http://127.0.0.1:5500/fonts/Icomoon/icomoon.eot?srf3rx#iefix) format("embedded-opentype"), url('http://127.0.0.1:5500/fonts/icomoon/icomoon.ttf?srf3rx') format("truetype"), url("http://127.0.0.1:5500/fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("http://127.0.0.1:5500/fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    src: url(‘../fonts/Icomoon/icomoon.eot?srf3rx′);
+    src: url(‘../fonts/Icomoon/icomoon.eot?srf3rx#iefix) format("embedded-opentype"), url('http://127.0.0.1:5500/fonts/icomoon/icomoon.ttf?srf3rx') format("truetype"), url("http://127.0.0.1:5500/fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("http://127.0.0.1:5500/fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
     font-weight: normal;
     font-style: normal;
   }
@@ -185,7 +185,7 @@ body {
     text-decoration: none;
     width: auto;
     height: 1000px;
-    background-image: url(http://127.0.0.1:5500/images/pexels-photo-886465_2.jpeg);
+    background-image: url(../images/pexels-photo-886465_2.jpeg);
     background-position: center;
     background-size: cover;
     background-blend-mode:multiply;    
@@ -494,7 +494,7 @@ body {
     padding: 80px;
     width: auto;
     height: 800px;
-    background-image: url(http://127.0.0.1:5500/images/background-2462431_1920.jpg);
+    background-image: url(../images/background-2462431_1920.jpg);
     background-position: center;
     background-size:cover;
     background-blend-mode:normal;
