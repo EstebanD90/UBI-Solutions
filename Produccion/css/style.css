@@ -38,7 +38,15 @@ body {
     justify-content: space-between;
     align-content: center;
     padding-left: 70px;
-    padding-right: 0px;
+    padding-right: 0px; 
+}
+
+.header a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 /*.header__logo {
@@ -280,14 +288,54 @@ body {
     font-family: "PT Sans", Arial, serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
     justify-self: center;
     align-self: center;
+    overflow: hidden;
 }
 
 .header__menu :hover{
     color: red;
 
+}
+
+.header__menu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.header__menu a.active {
+  color: red;
+}
+
+.header__menu .icon {
+  display: none;
+}
+
+@media screen and (max-width: 790px) {
+  .header__menu a:not(:first-child) {display: none;}
+  .header__menu a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .header__menu.responsive {position: relative;}
+  .header__menu.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .header__menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 
 .header__menu ul {
@@ -341,7 +389,6 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-
 
 .header__image img{
     width: 100px;
